@@ -1,0 +1,35 @@
+My\TestBundle\Entity\Guitar:
+    type: entity
+    table: null
+    repositoryClass: My\TestBundle\Entity\GuitarRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        serialNumber:
+            type: string
+            length: 255
+            column: serial_number
+        price:
+            type: string
+            length: 255
+        builder:
+            type: string
+            length: 255
+        model:
+            type: string
+            length: 255
+        type:
+            type: string
+            length: 255
+        backWood:
+            type: string
+            length: 255
+            column: back_wood
+        topWood:
+            type: string
+            length: 255
+            column: top_wood
+    lifecycleCallbacks: {  }

@@ -1,0 +1,14 @@
+My\TestBundle\Entity\Inventory:
+    type: entity
+    table: null
+    repositoryClass: My\TestBundle\Entity\InventoryRepository
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        guitars:
+            type: string
+            length: 255
+    lifecycleCallbacks: {  }
